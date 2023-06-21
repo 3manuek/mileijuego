@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  milei:
+    build:
+      dockerfile: Dockerfile
+    image: mileijuego
+    ports:
+      - 13000:3000
